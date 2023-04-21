@@ -1,0 +1,25 @@
+1. *php read mySql
+2. *to mysql
+-------------------------------------------
+
+3. php get pc data object
+4. *call shellexec -> object
+    python
+        format data
+        convert into jsonl
+    php api linking
+    - characters in completions (<255)
+2. layout
+    landing page
+    user profile
+3. use model name instead of session id
+    - create a model
+    - unique name
+    - unique name for database
+4. replace previous model
+    - add new pr-co
+    - train new model
+    - replace model
+5. interaction bw different models
+
+draft -> database -> submit and train

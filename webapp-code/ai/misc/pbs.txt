@@ -1,0 +1,5 @@
+1. complete run
+2. fetch modelid
+3. spinner and status of fine tuning
+4. let user share their models globally
+5. let users interact with global models

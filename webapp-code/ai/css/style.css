@@ -1,0 +1,78 @@
+/* Style for form container */
+.main-container {
+    box-shadow: 10 10 10px rgba(0, 0, 0, 1 );
+}
+
+.form-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0 auto; */
+    width: 80%;
+    padding: 20px;
+    /* background-color: #f2f2f2; */
+    box-shadow: 10 10 10px rgba(122, 201, 201, 0.1);
+    /* background-image: linear-gradient(to bottom right, rgb(168, 240, 255), rgb(255, 255, 255)); */
+    background-image: linear-gradient(to bottom right, #4cd3a2, #2a2c2c);
+}
+/* Style for form input fields */
+.form-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* Style for form submit button */
+.form-submit {
+    /* display: block; */
+    /* width: 100%; */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+/* Style for form submit button on hover */
+.form-submit:hover {
+    /* background-color: #005F6B; */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.create-pair {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.notification {
+	position: fixed;
+    width:350px;
+	top: 40px;
+    border-radius: 5px;
+	right: 500px;
+	background-color: #333;
+	color: #fff;
+    text-align: center;
+	opacity: 0;
+	transition: opacity 5.0s ease-in-out;
+	z-index: 9999;
+}
+
+.notification.success {
+	background-color: #4CAF50;
+}
+
+.notification.error {
+	background-color: #f44336;
+}
