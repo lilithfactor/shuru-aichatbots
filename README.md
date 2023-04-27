@@ -1,5 +1,3 @@
-# shuru-intern-jan-mar-2023
-
 # Steps for Starting Up
 ## 1. Clone Repository
 ## 2. Install and Setup [Xampp](https://www.apachefriends.org/download.html)
